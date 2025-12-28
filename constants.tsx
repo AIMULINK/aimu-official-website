@@ -15,7 +15,7 @@ export const CONTACT_INFO = {
   address: "Premium Residential District, Seattle, WA"
 };
 
-export const Logo: React.FC<{ className?: string }> = ({ className = "h-20" }) => (
+export const Logo: React.FC<{ className?: string }> = ({ className = "h-24" }) => (
   <img
     src={aimuLogo}
     alt="AiMU Logo"
